@@ -1,6 +1,6 @@
 # Hddtemp Input Plugin
 
-This plugin reads data from hddtemp daemon
+This plugin reads data from [hddtemp](http://www.guzu.net/linux/hddtemp.php).
 
 ## Requirements
 
