@@ -1,5 +1,3 @@
-// +build linux
-
 package fail2ban
 
 import (
@@ -8,9 +6,10 @@ import (
 	"os/exec"
 	"strings"
 
+	"strconv"
+
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/plugins/inputs"
-	"strconv"
 )
 
 var (
